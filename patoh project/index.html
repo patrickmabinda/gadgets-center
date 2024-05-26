@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>GADGETS CENTER</h1>
+    
+     <!-- page two-->
+     <div class="container">
+      <!-- Filterable Images / Cards Section -->
+      <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+        <div class="card p-0" data-name="Phone">
+          <img src="phone patoh\samsung galaxy s23.webp" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Samsung Galaxy S23</h6>
+            <p class="card-text">Battery;4500mAh Ram 8gb Rom 128gb</p>
+            <p>price 69,000.00/ksh</p>
+            <p>was<strike>  75,000.00/ksh</strike></p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="phone">
+          <img src="phone patoh\iphone 14 pro max.webp" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Iphone 14 Pro Max</h6>
+            <p class="card-text">Batery;4323mAh RAM;6GB Rom;256GB</p>
+            <p>price 192,000/ksh</p>
+            <p>was <strike>  200,000/ksh</strike></p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="Phone">
+          <img src="phone patoh\samsung galaxy S24.webp" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Samsung Galaxy S24 Ultra</h6>
+            <p class="card-text">Battery;5000 mAh RAM;12GB ROM;256GB</p>
+            <p>price 160,000</p>
+            <p>was<strike>  220,000/ksh</strike></p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="Headphone">
+          <img src="phone patoh\APPLE HEADPHONES.webp" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Apple headphone</h6>
+            <p class="card-text">Active noise cancellation</p>
+            <p>price 80,500/ksh</p>
+            <p>was <strike>  83,000/ksh</strike></p>
+          </div>
+        </div>
+        <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+            <div class="card p-0" data-name="Phone">
+              <img src="phone patoh\APPLE AIRPODS 4.webp" alt="img">
+              <div class="card-body">
+                <h6 class="card-title">Apple Airpods</h6>
+                <p class="card-text">Good power mAh</p>
+                <p>price 1,500/ksh</p>
+                <p>was<strike>  2,000/ksh</strike></p>
+              </div>
+            </div>
+            <div class="card p-0" data-name="TV">
+              <img src="phone patoh\SAMSUNG 32 INCH TV.webp" alt="img">
+              <div class="card-body">
+                <h6 class="card-title">Samsung 32 Inch TV</h6>
+                <p class="card-text">High quality pixels</p>
+                <p>price 17,000.00/ksh</p>
+                <p>was<strike> 20,000.00/ksh</strike></p>
+              </div>
+            </div>
+            <div class="card p-0" data-name="TV">
+              <img src="phone patoh\high sense tv.webp" alt="img">
+              <div class="card-body">
+                <h6 class="card-title">High Sense TV</h6>
+                <p class="card-text">32 INCH SCREEN SIZE</p>
+                <p>price 17,000.00/ksh</p>
+                <p>was<strike> 20,000.00/ksh</strike></p>
+              </div>
+            </div>
+            <div class="card p-0" data-name="Watch">
+              <img src="phone patoh\apple watch.webp" alt="img">
+              <div class="card-body">
+                <h6 class="card-title">Apple Watch</h6>
+                <p class="card-text">size:44mm Colour:Starlight</p>
+                <p>price 40,000/ksh</p>
+                <p>was <strike>  50,000/ksh</strike></p>
+              </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+      <style>
+          /* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+font-family: "Poppins", sans-serif;
+}
+
+body {
+background: orangered !important;
+}
+
+body .container {
+max-width: 1100px;
+}
+
+#filter-buttons button {
+border-radius: 3px;
+background: #fff;
+border-color: transparent;
+}
+
+#filter-buttons button:hover {
+background: #ddd;
+}
+
+#filter-buttons button.active {
+color: #fff;
+background: #6c757d;
+}
+
+#filterable-cards .card {
+width: 15rem;
+border: 2px solid transparent;
+}
+
+#filterable-cards .card.hide {
+display: none;
+}
+
+@media (max-width: 600px) {
+#filterable-cards {
+  justify-content: center;
+}
+
+#filterable-cards .card {
+  width: calc(100% / 2 - 10px);
+}
+}
+      </style>
+      </div>
+      <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+          <div class="card p-0" data-name="Earpod">
+            <img src="phone patoh\AIRPOD MAX 2ND GENERATION.webp" alt="img">
+            <div class="card-boy">
+              <h6 class="card-title">Airpod max 2nd generation</h6>
+              <p class="card-text">Regulates the sound around you</p>
+              <p>price 4000/ksh</p>
+              <p>was<strike>  5000/ksh</strike></p>
+            </div>
+          </div>
+          <div class="card p-0" data-name="Camera">
+            <img src="phone patoh\pro camera.webp" alt="img">
+            <div class="card-body">
+              <h6 class="card-title">Pro Camera </h6>
+              <p class="card-text">100X zooming Capability</p>
+              <p>price 14500/ksh</p>
+              <p>was <strike>  15000/ksh</strike></p>
+            </div>
+          </div>
+          <div class="card p-0" data-name="TV">
+            <img src="phone patoh\LG NANO80.webp" alt="img">
+            <div class="card-body">
+              <h6 class="card-title">LG NANO80 TV</h6>
+              <p class="card-text">32 Inch Tv with good screen resolution </p>
+              <p>price 10,000/ksh</p>
+              <p>was<strike>  10,500/ksh</strike></p>
+            </div>
+          </div>
+          <div class="card p-0" data-name="woofer">
+            <img src="phone patoh\xdobo sub woofer.jpg" alt="img">
+            <div class="card-body">
+              <h6 class="card-title">Xdobo sub woofer</h6>
+              <p class="card-text">High pitch and base </p>
+              <p>price 2200/ksh</p>
+              <p>was <strike>  2300/ksh</strike></p>
+            </div>
+          </div>
+          
+    </div>
+    <script>
+      // Select relevant HTML elements
+      const filterButtons = document.querySelectorAll("#filter-buttons button");
+      const filterableCards = document.querySelectorAll("#filterable-cards .card");
+      
+      // Function to filter cards based on filter buttons
+      const filterCards = (e) => {
+          document.querySelector("#filter-buttons .active").classList.remove("active");
+          e.target.classList.add("active");
+      
+          filterableCards.forEach(card => {
+              // show the card if it matches the clicked filter or show all cards if "all" filter is clicked
+              if(card.dataset.name === e.target.dataset.filter || e.target.dataset.filter === "all") {
+                  return card.classList.replace("hide", "show");
+              }
+              card.classList.add("hide");
+          });
+      }
+      
+      filterButtons.forEach(button => button.addEventListener("click", filterCards));
+      </script>
+      
+  </div>
+ <!--  end of page two-->
+  <!--  start of page three-->
+   <!--  end of page three-->
+   <!--  start of page four-->
+   <!--  end of page three-->
+    
+
+    <script src="Main.js"></script>
+  
+</div><div id="menu-overlay"></div>
+   <footer>
+      <div class="finisher">
+        <p>Ways of being able to access us</p>
+      </div>
+      <div class="us">
+        <h2>ABOUT US </h2>
+        <p>we are a fortified and certified platform which has an objective of availing gadgets to people . We also do shipping for our goods at affordable prices.We are mostly into electronics because we believe that it is with satisfaction that many people what to be digitized hence they need smartphones or laptops and latest flat screens</p>
+      </div>
+      <div  class="follow">
+        <P>Follow us on our socials below;</P>
+        <img src="" alt="facebook">
+        <img src="" alt="whatsapp">
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>Z
+
+
+</body>
+</html>
